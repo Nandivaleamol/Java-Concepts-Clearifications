@@ -8,7 +8,6 @@ public class ATM {
 
         ATMService atmService = new ATMServiceImpl();
 
-
         atmService.withdraw(1528,2000);
 
         System.out.println("---------------------------------------");
