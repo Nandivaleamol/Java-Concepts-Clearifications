@@ -1,7 +1,7 @@
 package practice.interfaces.atm.services;
 
-// Abstraction means Hiding internal implementation and just highlight set of services what we are offering
-public interface ATMService {
+// Abstraction means Hiding internal implementation and just highlight the set of services what we are offering
+ public interface ATMService {
 
     void withdraw(int atmPin, long amount);  // public abstract void withdraw(int atmPin, long amount);
 
